@@ -180,7 +180,7 @@ function doNewFolder(yes) {
 }
 
 function delFolder() {
-    $('#delFolderContent').html('是否刪除 ' + current_root);
+    $('#delFolderContent').html('Delete or not ' + current_root);
     $('#delFolder').show();
 }
 
@@ -196,7 +196,7 @@ function doDelFolder(yes) {
 }
 
 function delFile() {
-    $('#delFileContent').html('是否刪除 ' + current_file);
+    $('#delFileContent').html('Delete or not ' + current_file);
     $('#delFile').show();
     hideFileInfo();
 }
