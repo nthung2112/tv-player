@@ -279,6 +279,7 @@
         <item>英文</item>
         <item>簡體中文</item>
         <item>繁體中文</item>
+        <item>越南语</item>
     </string-array>
 
     <string-array name="select_parse_webview">

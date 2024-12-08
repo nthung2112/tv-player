@@ -1,0 +1,22 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- Home -->
+    <string name="home">Trang chủ</string>
+    <string name="home_vod">Vod</string>
+    <string name="home_live">Trực tiếp</string>
+    <string name="home_search">Tìm kiếm</string>
+    <string name="home_keep">Yêu thích</string>
+    <string name="home_push">Đẩy</string>
+    <string name="home_setting">Cài đặt</string>
+    <string name="home_history_short">Lịch sử</string>
+    <string name="home_history">Lịch sử</string>
+    <string name="home_recommend">Gợi ý</string>
+
+    <!-- Collect -->
+    <string name="collect_result">Kết quả tìm kiếm cho <xliff:g name="name">%s</xliff:g></string>
+
+    <!-- Push -->
+    <string name="push_clip">Đẩy nội dung clipboard</string>
+    <string name="push_info">Quét mã QR hoặc nhập URL vào trình duyệt\n<xliff:g name="name">%s</xliff:g></string>
+
+</resources>

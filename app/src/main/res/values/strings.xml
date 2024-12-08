@@ -279,6 +279,7 @@
         <item>English</item>
         <item>Simplified Chinese</item>
         <item>Traditional Chinese</item>
+        <item>Tiếng Việt</item>
     </string-array>
 
     <string-array name="select_parse_webview">

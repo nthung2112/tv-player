@@ -1,0 +1,316 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- App -->
+    <string name="app_name">OKTV</string>
+    <string name="app_exit">Nhấn phím quay lại lần nữa để thoát</string>
+
+    <!-- Vod -->
+    <string name="vod_last">Lần cuối đã xem <xliff:g name="name">%s</xliff:g></string>
+
+    <!-- Live -->
+    <string name="live_pass">Mật khẩu</string>
+    <string name="live_line">Đường truyền <xliff:g name="name">%s</xliff:g></string>
+
+    <!-- Detail -->
+    <string name="detail_title"><xliff:g name="name">%s</xliff:g>: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_site">Nguồn: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_year">Năm: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_area">Khu vực: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_type">Thể loại: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_director">Đạo diễn: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_actor">Diễn viên: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_content">Nội dung: <xliff:g name="name">%s</xliff:g></string>
+    <string name="detail_desc">Tóm tắt</string>
+
+    <!-- Keep -->
+    <string name="keep">Lưu</string>
+    <string name="keep_add">Đã thêm vào yêu thích</string>
+    <string name="keep_del">Đã xóa khỏi yêu thích</string>
+
+    <!-- Play -->
+    <string name="play">Phát</string>
+    <string name="play_op">Mở đầu</string>
+    <string name="play_ed">Kết thúc</string>
+    <string name="play_next">Tập tiếp theo</string>
+    <string name="play_prev">Tập trước</string>
+    <string name="play_episodes">Chọn tập</string>
+    <string name="play_loop">Lặp lại</string>
+    <string name="play_timer">Hẹn giờ</string>
+    <string name="play_time">Thời gian</string>
+    <string name="play_netspeed">Tốc độ mạng</string>
+    <string name="play_duration">Tiến trình</string>
+    <string name="play_mini_progress">Thu nhỏ</string>
+    <string name="play_video_title">Tiêu đề</string>
+    <string name="play_danmu">Bình luận</string>
+    <string name="play_display">Hiển thị</string>
+    <string name="play_speed">Tốc độ</string>
+    <string name="play_change">Thay đổi nguồn</string>
+    <string name="play_forward">→</string>
+    <string name="play_backward">←</string>
+    <string name="play_invert">Đảo ngược</string>
+    <string name="play_across">Xuyên loại</string>
+    <string name="play_reverse">Ngược dòng</string>
+    <string name="play_track_text">Phụ đề</string>
+    <string name="play_track_audio">Âm thanh</string>
+    <string name="play_track_video">Video</string>
+    <string name="play_forward_hint">Đã chuyển sang phát theo thứ tự</string>
+    <string name="play_backward_hint">Đã chuyển sang phát ngược thứ tự</string>
+    <string name="play_now">Đang phát: <xliff:g name="name">%s</xliff:g></string>
+    <string name="play_ready">Chuẩn bị phát: <xliff:g name="name">%s</xliff:g></string>
+    <string name="play_switch_parse">Đang chuyển đổi sang phân tích 「<xliff:g name="name">%s</xliff:g>」</string>
+    <string name="play_switch_flag">Đang chuyển đổi đường truyền sang 「<xliff:g name="name">%s</xliff:g>」</string>
+    <string name="play_switch_site">Đang chuyển đổi nguồn trang sang 「<xliff:g name="name">%s</xliff:g>」</string>
+
+    <!-- Parse -->
+    <string name="parse">Phân tích</string>
+    <string name="parse_god">Phân tích cao cấp</string>
+    <string name="parse_from">Phân tích từ: <xliff:g name="name">%s</xliff:g></string>
+
+    <!-- Push -->
+    <string name="push">Đẩy</string>
+
+    <!-- Setting -->
+    <string name="setting_vod">VOD</string>
+    <string name="setting_live">Trực tiếp</string>
+    <string name="setting_wall">Hình nền</string>
+    <string name="setting_player">Cài đặt trình phát</string>
+    <string name="setting_danmu">Cài đặt bình luận</string>
+    <string name="setting_custom">Tùy chỉnh</string>
+    <string name="setting_config_cache">Bộ nhớ đệm giao diện</string>
+    <string name="setting_cache_dir">Thư mục bộ nhớ đệm</string>
+    <string name="setting_reset">Đặt lại App</string>
+    <string name="setting_quality">Chất lượng hình ảnh</string>
+    <string name="setting_size">Kích thước hình ảnh</string>
+    <string name="setting_aggregated_search">Tìm kiếm tích hợp</string>
+    <string name="setting_language">Cài đặt ngôn ngữ</string>
+    <string name="setting_parse_webview">WebView phát hiện</string>
+    <string name="setting_fullscreen_menu_key">Phím menu toàn màn hình</string>
+    <string name="setting_home_menu_key">Phím menu trang chủ</string>
+    <string name="setting_home_site_lock">Khóa nguồn trang chủ</string>
+    <string name="setting_incognito">Chế độ ẩn danh</string>
+    <string name="setting_site_search">Tìm kiếm nguồn</string>
+    <string name="setting_remove_ad">AI gỡ quảng cáo</string>
+    <string name="setting_small_window_back_key">Phím quay lại cửa sổ nhỏ</string>
+    <string name="setting_home_display_name">Hiển thị nguồn trên trang chủ</string>
+    <string name="setting_home_ui">Giao diện trang chủ</string>
+    <string name="setting_home_buttons">Nút trên trang chủ</string>
+    <string name="setting_doh">DoH</string>
+    <string name="setting_proxy">Proxy</string>
+    <string name="setting_cache">Bộ nhớ đệm</string>
+    <string name="setting_backup">Sao lưu</string>
+    <string name="setting_restore">Phục hồi</string>
+    <string name="setting_version">Phiên bản</string>
+    <string name="setting_about">Giới thiệu</string>
+    <string name="setting_storage">Quyền truy cập</string>
+    <string name="setting_off">Tắt</string>
+    <string name="setting_on">Bật</string>
+
+    <!-- Player -->
+    <string name="player">Trình phát</string>
+    <string name="player_decode">Phương thức giải mã</string>
+    <string name="player_render">Phương thức hiển thị</string>
+    <string name="player_scale">Tỷ lệ thu phóng</string>
+    <string name="player_caption">Phong cách phụ đề</string>
+    <string name="player_play_with_others">Phát cùng lúc</string>
+    <string name="player_danmu_load">Tải bình luận</string>
+    <string name="player_danmu_speed">Tốc độ bình luận</string>
+    <string name="player_danmu_size">Kích thước bình luận</string>
+    <string name="player_danmu_line">Số dòng bình luận</string>
+    <string name="player_danmu_alpha">Độ trong suốt của bình luận</string>
+    <string name="player_danmu_sync">Đồng bộ bình luận</string>
+    <string name="player_background">Phát trong nền</string>
+    <string name="player_flag">Phát qua đường truyền</string>
+    <string name="player_episode">Phong cách chọn tập</string>
+    <string name="player_exo_tunnel">Chế độ đường hầm</string>
+    <string name="player_exo_http">Phương thức kết nối</string>
+    <string name="player_exo_buffer">Thời gian bộ đệm</string>
+    <string name="player_rtsp">Kênh RTSP</string>
+    <string name="player_ua">User-Agent</string>
+
+    <!-- Search -->
+    <string name="search_keyword">Từ khóa…</string>
+    <string name="search_record">Lịch sử</string>
+    <string name="search_suggest">Gợi ý</string>
+    <string name="search_hot">Tìm kiếm phổ biến</string>
+
+    <!-- Dialog -->
+    <string name="dialog_edit">Chỉnh sửa</string>
+    <string name="dialog_positive">Xác nhận</string>
+    <string name="dialog_negative">Hủy</string>
+    <string name="dialog_config_hint">Vui lòng nhập giao diện…</string>
+    <string name="dialog_config_name">Vui lòng nhập tên…</string>
+    <string name="dialog_config_url">Vui lòng nhập địa chỉ…</string>
+    <string name="dialog_delete_record">Xóa tất cả lịch sử?</string>
+    <string name="dialog_delete_keep">Tất cả các mục yêu thích sẽ bị xóa.</string>
+    <string name="dialog_delete_history">Tất cả lịch sử xem sẽ bị xóa.</string>
+    <string name="dialog_reset_app">Đặt lại App?</string>
+    <string name="dialog_reset_app_data">Tất cả dữ liệu sẽ được đặt lại và App sẽ đóng.</string>
+    <string name="dialog_restore">Khôi phục dữ liệu sao lưu?</string>
+    <string name="dialog_restore_msg">Cấu hình, lịch sử xem và các cài đặt sẽ được khôi phục.</string>
+
+    <!-- Error -->
+    <string name="error_config_get">Không lấy được cấu hình</string>
+    <string name="error_config_parse">Không phân tích được cấu hình</string>
+    <string name="error_play_next">Đã là tập cuối!</string>
+    <string name="error_play_prev">Đã là tập đầu!</string>
+    <string name="error_play_parse">Không phân tích được địa chỉ phát</string>
+    <string name="error_play_url">Không tải được địa chỉ phát\nMã lỗi: <xliff:g name="name">%s</xliff:g></string>
+    <string name="error_play_flag">Không có dữ liệu đường truyền</string>
+    <string name="error_play_timeout">Kết nối hết thời gian</string>
+    <string name="error_detail">Không có dữ liệu phát</string>
+    <string name="error_empty">Không tìm thấy dữ liệu</string>
+
+    <!-- Update -->
+    <string name="update_version">Phát hiện phiên bản mới <xliff:g name="name">%s</xliff:g></string>
+    <string name="update_check">Đang kiểm tra cập nhật…</string>
+    <string name="update_confirm">Cập nhật</string>
+
+    <!-- X5 WebView -->
+    <string name="x5webview_title">X5 WebView</string>
+    <string name="x5webview_download_enable">Giải nén và kích hoạt X5 WebView?</string>
+    <string name="x5webview_enabled">X5 WebView đã được kích hoạt</string>
+    <string name="x5webview_parsing">Đang phát hiện bằng X5 WebView</string>
+
+    <!-- Crash -->
+    <string name="crash_info">Đã xảy ra lỗi bất ngờ\nXin lỗi vì sự bất tiện này</string>
+    <string name="crash_restart">Khởi động lại</string>
+    <string name="crash_details">Thông tin lỗi</string>
+    <string name="crash_details_title">Thông tin lỗi</string>
+    <string name="crash_details_close">Đóng</string>
+
+    <!-- Hint -->
+    <string name="copied">Đã sao chép</string>
+    <string name="backed">Sao lưu thành công</string>
+    <string name="config_refreshed">Giao diện đã làm mới</string>
+
+    <!-- UNIT -->
+    <string name="all">Tất cả</string>
+    <string name="times">Lần</string>
+    <string name="lines">Dòng</string>
+
+    <string-array name="select_backup">
+        <item>Tự động</item>
+        <item>Thủ công</item>
+    </string-array>
+
+    <string-array name="select_decode">
+        <item>Giải mã mềm</item>
+        <item>Giải mã cứng</item>
+    </string-array>
+
+    <string-array name="select_player">
+        <item>Hệ thống</item>
+        <item>IJK</item>
+        <item>EXO</item>
+    </string-array>
+
+    <string-array name="select_danmu_speed">
+        <item>Rất chậm</item>
+        <item>Chậm</item>
+        <item>Vừa</item>
+        <item>Nhanh</item>
+    </string-array>
+
+    <string-array name="select_quality">
+        <item>Thấp</item>
+        <item>Trung bình</item>
+        <item>Cao</item>
+    </string-array>
+
+    <string-array name="select_size">
+        <item>Nhỏ</item>
+        <item>Vừa</item>
+        <item>Lớn</item>
+        <item>Rất lớn</item>
+    </string-array>
+
+    <string-array name="select_scale">
+        <item>Nguyên bản</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>Đầy</item>
+        <item>Cắt</item>
+    </string-array>
+
+    <string-array name="select_reset">
+        <item>Làm mới</item>
+        <item>Phát lại</item>
+    </string-array>
+
+    <string-array name="select_exo_http">
+        <item>Mặc định</item>
+        <item>OkHttp</item>
+    </string-array>
+
+    <string-array name="select_flag">
+        <item>Tự động</item>
+        <item>Thủ công</item>
+    </string-array>
+
+    <string-array name="select_episode">
+        <item>Một hàng</item>
+        <item>Nhiều hàng</item>
+    </string-array>
+
+    <string-array name="select_fullscreen_menu_key">
+        <item>Thanh điều khiển</item>
+        <item>Chọn tập</item>
+    </string-array>
+
+    <string-array name="select_small_window_back_key">
+        <item>Quay lại</item>
+        <item>Di chuyển tiêu điểm</item>
+    </string-array>
+
+    <string-array name="select_home_menu_key">
+        <item>Cửa sổ tùy chọn</item>
+        <item>Chuyển đổi nguồn</item>
+        <item>Chuyển đổi đường truyền</item>
+        <item>Trang trực tiếp</item>
+        <item>Trang lịch sử</item>
+        <item>Trang tìm kiếm</item>
+        <item>Trang đẩy</item>
+        <item>Trang yêu thích</item>
+        <item>Trang cài đặt</item>
+    </string-array>
+
+    <string-array name="select_language">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Trung giản thể</item>
+        <item>Tiếng Trung phồn thể</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+
+    <string-array name="select_parse_webview">
+        <item>Hệ thống</item>
+        <item>X5 WebView</item>
+    </string-array>
+
+    <string-array name="select_home_recommend">
+        <item>Lịch sử phát</item>
+        <item>Gợi ý từ trang web</item>
+    </string-array>
+
+    <string-array name="select_home_ui">
+        <item>Phong cách đơn giản</item>
+        <item>Phong cách TVBox</item>
+    </string-array>
+
+    <string-array name="select_config_cache">
+        <item>Tắt</item>
+        <item>12 giờ</item>
+        <item>24 giờ</item>
+    </string-array>
+
+    <string-array name="select_caption">
+        <item>Mặc định</item>
+        <item>Hệ thống</item>
+    </string-array>
+
+    <string-array name="select_track">
+        <item>Chọn âm thanh</item>
+        <item>Chọn hình ảnh</item>
+        <item>Chọn phụ đề</item>
+    </string-array>
+
+</resources>
