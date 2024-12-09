@@ -65,6 +65,9 @@ public class CustomKeyboard implements KeyboardAdapter.OnClickListener {
                 binding.keyword.setText(sb.toString());
                 binding.keyword.setSelection(cursor - 1);
                 break;
+            case R.drawable.ic_keyboard_space:
+                onTextClick(" ");
+                break;
             case R.drawable.ic_keyboard:
                 adapter.toggle();
                 break;
